@@ -1,5 +1,5 @@
 
-# DcmConvert
+# DCMTK
 dcmtk wrapper for nodejs
 
 
