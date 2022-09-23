@@ -1,0 +1,27 @@
+{
+  "name": "@caoshouse/dcmtk",
+  "version": "1.0.3",
+  "description": "dcmtk wrapper for nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:types": "tsc --emitDeclarationOnly",
+    "test": "echo test not defined"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "images"
+  ],
+  "author": "caoshouse",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "jest": "^29.0.3"
+  },
+  "dependencies": {
+    "@caoshouse/dcmtk_x64": "^1.0.2",
+    "@caoshouse/dcmtk_x86": "^1.0.2"
+  }
+}
